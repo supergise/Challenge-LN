@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Suecaslab-Bold;
+    src: url('src/assets/fonts/suecaslab-bold.woff2');
+}
+
+@font-face {
+    font-family: Suecaslab-Medium;
+    src: url('src/assets/fonts/suecaslab-medium.woff2');
+}

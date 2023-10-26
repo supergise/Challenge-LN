@@ -1,0 +1,44 @@
+{
+    "articulos": [
+        {
+            "lead": "Tránsito porteño",
+            "titulo": "Dos empresas de recolección de residuos manejarán las grúas de acarreo de autos mal estacionados",
+            "subtitulo": "Son Transportes 9 de Julio y Ashira-Ecoba, ambas impulsadas por el sindicato de Camioneros, que se suman a SAEM-Tránsito Rosario, con experiencia en la actividad; en las próximas semanas se firmarían los contratos y, en cinco meses, deberían comenzar a operar",
+            "marquee": "Mauricio Giambartolomei",
+            "imagen": "https://www.lanacion.com.ar/resizer/v2/nuevas-gruas-de-acarreo-de-la-ciudad-de-buenos-ZGTWGAJJSFAP5BIZFCKJFOI7QE.JPG?auth=7bb98e569418e3c250a9e6bdf2ce314328268e202e5deaa6acedf75b56b39e07&width=880&height=586&quality=70&smart=false&focal=1010,437",
+            "url": "https://www.lanacion.com.ar/buenos-aires/transito-porteno-dos-empresas-de-recoleccion-de-residuos-manejaran-las-gruas-de-acarreo-de-autos-mal-nid07102023/"
+        },
+        {
+            "lead": "",
+            "titulo": "Cuándo llegará a Retiro el único ramal del tren Mitre que aún opera con servicio reducido",
+            "subtitulo": "",
+            "marquee": "Mauricio Giambartolomei",
+            "imagen": "https://www.lanacion.com.ar/resizer/v2/el-23-de-junio-los-trenes-del-mitre-comenzaron-a-LAP2WOPDEJH5LEGYYGWV4D6WLU.JPG?auth=d27dcfa57090835d55fb597f97f35db7da396d650471356c5e7eae83c6d6606b&width=880&height=586&quality=70&smart=false&focal=570,576",
+            "url": "https://www.lanacion.com.ar/buenos-aires/cuando-llegara-a-retiro-el-unico-ramal-del-tren-mitre-que-aun-opera-con-servicio-reducido-nid05102023/"
+        },
+        {
+            "lead": "Comparado con auto y avión",
+            "titulo": "Pros y contras del nuevo tren que conecta Miami con Orlando",
+            "subtitulo": "El Brightline realiza el recorrido entre las dos ciudades en tres horas y media; alcanza una velocidad de 201 kilómetros por hora y cuesta desde 79 dólares",
+            "marquee": "Lucila Marti Garro",
+            "imagen": "https://www.lanacion.com.ar/resizer/v2/miami-el-nuevo-trenque-conecta-con-orlando-6IJ76FH32ZHY5NNSBUW5RNYPPE.jpeg?auth=c4c0b8bda9658c083ca530c35fbed346da79fcc81c6a492dc32736cebd08ee39&width=880&height=586&quality=70&smart=true",
+            "url": "https://www.lanacion.com.ar/salud/descanso/miami-pros-y-contras-del-nuevo-tren-que-conecta-con-orlando-nid20102023/"
+        },
+        {
+            "lead": "Epicentro del oro",
+            "titulo": "El pueblo argentino que fue distinguido como uno de los mejores del mundo",
+            "subtitulo": "",
+            "marquee": "Victoria Vera Ziccardi",
+            "imagen": "https://www.lanacion.com.ar/resizer/v2/el-pueblo-argentino-de-la-carolina-ubicada-en-el-3UOYPRCORRESHMARTDFBWIIMQA.jpg?auth=ecc7cc0a0d126d5784e34aaab1a00b905965a28ce45cd98f035918d9e9aa180a&width=880&height=586&quality=70&smart=true",
+            "url": "https://www.lanacion.com.ar/salud/descanso/el-pueblo-argentino-que-fue-distinguido-como-uno-de-los-mejores-del-mundo-nid19102023/"
+        },
+        {
+            "lead": "",
+            "titulo": "",
+            "subtitulo": "",
+            "marquee": "",
+            "imagen": "",
+            "url": ""
+        }
+    ]
+}
