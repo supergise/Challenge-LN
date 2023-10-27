@@ -1,44 +1,64 @@
 {
-    "articulos": [
+    "articles": [
         {
-            "lead": "Tránsito porteño",
-            "titulo": "Dos empresas de recolección de residuos manejarán las grúas de acarreo de autos mal estacionados",
-            "subtitulo": "Son Transportes 9 de Julio y Ashira-Ecoba, ambas impulsadas por el sindicato de Camioneros, que se suman a SAEM-Tránsito Rosario, con experiencia en la actividad; en las próximas semanas se firmarían los contratos y, en cinco meses, deberían comenzar a operar",
-            "marquee": "Mauricio Giambartolomei",
-            "imagen": "https://www.lanacion.com.ar/resizer/v2/nuevas-gruas-de-acarreo-de-la-ciudad-de-buenos-ZGTWGAJJSFAP5BIZFCKJFOI7QE.JPG?auth=7bb98e569418e3c250a9e6bdf2ce314328268e202e5deaa6acedf75b56b39e07&width=880&height=586&quality=70&smart=false&focal=1010,437",
-            "url": "https://www.lanacion.com.ar/buenos-aires/transito-porteno-dos-empresas-de-recoleccion-de-residuos-manejaran-las-gruas-de-acarreo-de-autos-mal-nid07102023/"
+            "id":"001",
+            "lead": "Patagonia.",
+            "titulo": "El destino con paisajes impactantes que combina lo mejor de Holanda y Aspen",
+            "subtitulo": "Esquel, recostado sobre los Andes, en Chubut, diversifica sus propuestas y se consolida como un destino de todo el año; imperdibles La Hoya, las travesías por Los Alerces, el campo de tulipanes y el viaje a bordo de La Trochita",
+            "marquee": "Mercedes Soriano",
+            "imagen": "https://www.lanacion.com.ar/resizer/v2/patagonia-la-mitica-trochita-con-un-siglo-de-vida-XCQNXRMDORFK3FGWJESO24PE4Q.jpeg?auth=902a6aa224bc676d70569cf5aa89240448d14e4e57c66e0d3ac8b14bf35e739d&width=1920&height=1280&quality=70&smart=true",
+            "url": "https://www.lanacion.com.ar/salud/descanso/patagonia-el-destino-con-paisajes-impactantes-que-combina-lo-mejor-de-holanda-y-aspen-nid11082023/",
+            "imagen-autor": ""
         },
         {
-            "lead": "",
-            "titulo": "Cuándo llegará a Retiro el único ramal del tren Mitre que aún opera con servicio reducido",
-            "subtitulo": "",
-            "marquee": "Mauricio Giambartolomei",
-            "imagen": "https://www.lanacion.com.ar/resizer/v2/el-23-de-junio-los-trenes-del-mitre-comenzaron-a-LAP2WOPDEJH5LEGYYGWV4D6WLU.JPG?auth=d27dcfa57090835d55fb597f97f35db7da396d650471356c5e7eae83c6d6606b&width=880&height=586&quality=70&smart=false&focal=570,576",
-            "url": "https://www.lanacion.com.ar/buenos-aires/cuando-llegara-a-retiro-el-unico-ramal-del-tren-mitre-que-aun-opera-con-servicio-reducido-nid05102023/"
+            "id":"002",
+            "lead": "Escapada.",
+            "titulo": "Un destino poco explorado con vistas impactantes",
+            "subtitulo": "Escapadas: murallones colorados y vistas impactantes en un parque poco explorado",
+            "marquee": "Gabriela Vigo",
+            "imagen": "https://www.lanacion.com.ar/resizer/v2/escapada-visitar-los-caracteristicos-paredones-45LBYAO5PVBUZIALKWDJAVH7IE.jpg?auth=1bd21b7995cc428b0a8d58edc002e4d42ba622154a113ee8ef366f64b6194c53&width=1920&height=1280&quality=70&smart=true",
+            "url":"https://www.lanacion.com.ar/salud/murallones-colorados-y-vistas-impactantes-en-un-parque-poco-explorado-nid12102023/",
+            "imagen-autor": "https://www.linkedin.com/in/gabrielavigoperiodista/overlay/photo/"
         },
         {
-            "lead": "Comparado con auto y avión",
-            "titulo": "Pros y contras del nuevo tren que conecta Miami con Orlando",
-            "subtitulo": "El Brightline realiza el recorrido entre las dos ciudades en tres horas y media; alcanza una velocidad de 201 kilómetros por hora y cuesta desde 79 dólares",
-            "marquee": "Lucila Marti Garro",
-            "imagen": "https://www.lanacion.com.ar/resizer/v2/miami-el-nuevo-trenque-conecta-con-orlando-6IJ76FH32ZHY5NNSBUW5RNYPPE.jpeg?auth=c4c0b8bda9658c083ca530c35fbed346da79fcc81c6a492dc32736cebd08ee39&width=880&height=586&quality=70&smart=true",
-            "url": "https://www.lanacion.com.ar/salud/descanso/miami-pros-y-contras-del-nuevo-tren-que-conecta-con-orlando-nid20102023/"
+            "id":"003",
+            "lead": "Con playas perfectas.",
+            "titulo": "El destino que duplicó sus visitantes y es un boom turístico",
+            "subtitulo": "Jamaica, un Caribe exótico para deleitarse con sus aguas cálidas",
+            "marquee": "Andrea Ventura",
+            "imagen": "https://www.lanacion.com.ar/resizer/v2/la-playa-es-siempre-un-iman-para-los-visitantes-XGVSYDWYT5GNDJWBB2QHNWPEWY.jpg?auth=e086b3ee5fe51d61e16b69145e2b1b3589918db8ac114c8fedb1db11163772b3&width=1920&height=1280&quality=70&smart=false&focal=1717,773",
+            "url":"https://www.lanacion.com.ar/salud/el-destino-que-duplico-sus-visitantes-y-es-un-boom-turistico-nid12052023/",
+            "imagen-autor": "agregar Andrea"
         },
         {
-            "lead": "Epicentro del oro",
-            "titulo": "El pueblo argentino que fue distinguido como uno de los mejores del mundo",
-            "subtitulo": "",
-            "marquee": "Victoria Vera Ziccardi",
-            "imagen": "https://www.lanacion.com.ar/resizer/v2/el-pueblo-argentino-de-la-carolina-ubicada-en-el-3UOYPRCORRESHMARTDFBWIIMQA.jpg?auth=ecc7cc0a0d126d5784e34aaab1a00b905965a28ce45cd98f035918d9e9aa180a&width=880&height=586&quality=70&smart=true",
-            "url": "https://www.lanacion.com.ar/salud/descanso/el-pueblo-argentino-que-fue-distinguido-como-uno-de-los-mejores-del-mundo-nid19102023/"
+            "id":"004",
+            "lead": "Misteriosa y monumental.",
+            "titulo": "La antigua fortaleza de mil años que bate récords de visitantes",
+            "subtitulo": "Está en una roca en el canal de la Mancha, cerca de Normandía y es uno de los sitios más visitados de Francia",
+            "marquee": "Pierre Dumas",
+            "imagen": "https://www.lanacion.com.ar/resizer/v2/para-acceder-a-la-antigua-fortaleza-mont-saint-27EHJUFV6VE2ROLPUTSKM3VNMA.jpeg?auth=666eeb0c0e670851abeb89155a4f44becb339d8c6b4f1046163a074c777895c5&width=1920&height=1280&quality=70&smart=true",
+            "url":"https://www.lanacion.com.ar/salud/descanso/misteriosa-y-monumental-la-antigua-fortaleza-francesa-de-mil-anos-que-bate-records-de-visitantes-nid29092023/",
+            "imagen-autor": ""
         },
         {
-            "lead": "",
-            "titulo": "",
-            "subtitulo": "",
-            "marquee": "",
-            "imagen": "",
-            "url": ""
+            "id":"005",
+            "lead": "La otra Patagonia.",
+            "titulo": "Dónde queda la cordillera del Viento, el destino que promete un descanso diferente",
+            "subtitulo": "A 500 kilómetros de la capital neuquina, muy cerca del volcán Domuyo, el pico más alto de la región",
+            "marquee": "Carola Cinto",
+            "imagen": "https://www.lanacion.com.ar/resizer/v2/los-bolillos-curiosas-formaciones-con-forma-de-BJ2M2NJ2DRFHRERCUZYP25JKWE.jpeg?auth=cd9210db490fd9cc111843c2f1c129baad29f4e7ad2994459d34730ee88e387a&width=1920&height=1280&quality=70&smart=true",
+            "url":"https://www.lanacion.com.ar/salud/cordillera-del-viento-un-secreto-bien-guardado-en-la-patagonia-nid22092023/",
+            "imagen-autor": ""
+        },
+        {
+            "id":"006",
+            "lead": "Litoral carioca.",
+            "titulo": "Un circuito por cuatro pueblos soñados con las playas más glamorosas de Brasil",
+            "subtitulo": "A pocos kilómetros de Río de Janeiro, Paraty, Búzios, Angra dos Reis y Arraial do Cabo ofrecen un escape a la vida urbana con arenas más tranquilas, aguas cálidas y morros para caminar sin rumbo",
+            "marquee": "Silvina Pini",
+            "imagen": "https://www.lanacion.com.ar/resizer/v2/las-mejores-playas-para-recorrer-en-barco-o-en-Z2BNMVHGXRBDNHZKIPE7PBOWCI.JPG?auth=753425c3246dce36ffd866a51ab42f02c1178823439f54ba1928631fdb57a82d&width=1920&height=1280&quality=70&smart=true",
+            "url":"https://www.lanacion.com.ar/salud/litoral-carioca-las-mejores-playas-y-todo-lo-que-hay-que-saber-para-visitar-esta-zona-nid15092023/",
+            "imagen-autor": ""
         }
     ]
 }
