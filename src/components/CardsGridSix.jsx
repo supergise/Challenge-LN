@@ -1,7 +1,17 @@
+import { Card } from "./Card";
 
+export const CardsGridSix = ({ articles }) => {
+    return (
+        <section className="mb-16">
+            <h2 className="w-[920px] h-[41px] mb-4 font-primary text-2xl border-b">
+                Card Group x 6
+            </h2>
 
-export const CardsGridSix = () => {
-  return (
-    <div>CardsGridSix</div>
-  )
-}
+            <article className="gridSix w-[920px] grid md:grid-cols-3 gap-10">
+                {articles().map((art) => {
+                    return <Card key={art.id} {...art} type={1} />;
+                })}
+            </article>
+        </section>
+    );
+};

@@ -16,7 +16,7 @@ export const CardFullScreen = () => {
 
     return (
         <section
-            className="w-full h-[768px] image flex com-image bg-no-repeat bg-cover mb-[64px]"
+            className="w-full h-[768px] image flex com-image bg-no-repeat bg-cover mb-16"
             style={{
                 backgroundImage: `url("${image}")`,
             }}
@@ -28,11 +28,11 @@ export const CardFullScreen = () => {
                         Exclusivo Suscriptor
                     </span>
 
-                    <h1 className="font-primary text-5xl text-gray-100 tracking-tight leading-[56px] text-start">
+                    <h1 className="mainTitle text-start">
                         {title}
                     </h1>
 
-                    <h4 className="font-bold text-base text-center text-gray-100">
+                    <h4 className="marqueeLight text-center">
                         {marquee}
                     </h4>
                 </article>

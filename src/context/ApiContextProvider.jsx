@@ -21,12 +21,17 @@ export const ApiContextProvider = ({ children }) => {
        return  articles[0];
     }
 
+    const getAllArticles = () => {
+        return articles;
+    }
+
     return (
         <ApiContext.Provider
             value={{
                 articles,
                 get3Articles,
                 getFirst,
+                getAllArticles
             }}
         >
             {children}
