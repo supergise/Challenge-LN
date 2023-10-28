@@ -14,14 +14,19 @@ export const ApiContextProvider = ({ children }) => {
     }, []);
 
     const get3Articles = () => {
-        return articles.slice(0, 3);
+        return articles.slice(1, 4);
     };
+
+    const getFirst = () => {
+       return  articles[0];
+    }
 
     return (
         <ApiContext.Provider
             value={{
                 articles,
                 get3Articles,
+                getFirst,
             }}
         >
             {children}

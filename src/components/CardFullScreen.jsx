@@ -1,25 +1,39 @@
-export const CardFullScreen = ({ articles }) => {
+import { useContext } from "react";
+import { ApiContext } from "../context/ApiContex";
+
+import iconLn from "../assets/icons/icon-ln-badge.png"
+
+
+export const CardFullScreen = () => {
+
+    const { getFirst } = useContext(ApiContext);
+
+    console.log(getFirst());
+    if(!getFirst()) {
+        return null;
+    }
+    const { title, image, marquee } = getFirst();
+
     return (
         <section
             className="w-full h-[768px] image flex com-image bg-no-repeat bg-cover mb-[64px]"
             style={{
-                backgroundImage:
-                    'url("https://www.lanacion.com.ar/resizer/v2/los-investigadores-creen-haber-identificado-el-24WB4T22WFD5LFJRNRSTKCMKZU.jpg?auth=cee7520fe82bddbcd4ff08137c59decb0f6b1876be9a6faa5b3e253c3003a870&width=420&height=280&quality=70&smart=true")',
+                backgroundImage: `url("${image}")`,
             }}
         >
             <div className="w-full mt-[528px] bg-gradient-to-t from-black to-transparent">
                 <article className="h-[240px] w-full flex flex-col justify-center items-start mx-auto max-w-[1280px]">
-                    <span className="px-2 py-1 mb-2 rounded-2xl bg-black text-white uppercase text-[11px]">
-                        Badge
+                    <span className="flex items-center justify-start pl-2 pr-4 py-2 mb-2 rounded-2xl gap-1 bg-gray-100 text-black border uppercase leading-4 text-[12px] font-bold">
+                        <img src={iconLn} alt="icon la nación suscripciones" className="w-[20px] rounded" />
+                        Exclusivo Suscriptor
                     </span>
 
-                    <h1 className="font-primary text-5xl text-white tracking-tight leading-[56px] text-start">
-                        Lead.Title esto es un titulo de la novedad con unas
-                        cuantas lineas que ocupar
+                    <h1 className="font-primary text-5xl text-gray-100 tracking-tight leading-[56px] text-start">
+                        {title}
                     </h1>
 
-                    <h4 className="font-bold text-base text-center text-white">
-                        Author / Marquee
+                    <h4 className="font-bold text-base text-center text-gray-100">
+                        {marquee}
                     </h4>
                 </article>
             </div>

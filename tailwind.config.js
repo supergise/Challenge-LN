@@ -12,7 +12,7 @@ export default {
       fontFamily: {
         primary: 'Suecaslab-Bold',
         secondary: 'Suecaslab-Medium',
-      }
+      },
     },
   },
   plugins: [],
