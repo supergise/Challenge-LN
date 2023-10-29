@@ -13,25 +13,18 @@ export const ApiContextProvider = ({ children }) => {
         getArticles();
     }, []);
 
-    const get3Articles = () => {
-        return articles.slice(1, 4);
+    const getArticles = (quantity) => {
+        if (quantity > articles.length) {
+            return articles.splice(0);
+        } else {
+            return articles.splice(0, quantity).reverse();
+        }
     };
-
-    const getFirst = () => {
-       return  articles[0];
-    }
-
-    const getAllArticles = () => {
-        return articles;
-    }
 
     return (
         <ApiContext.Provider
             value={{
-                articles,
-                get3Articles,
-                getFirst,
-                getAllArticles
+                getArticles,
             }}
         >
             {children}

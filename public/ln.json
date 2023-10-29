@@ -24,7 +24,6 @@
             "id":"003",
             "lead": "Con playas perfectas.",
             "title": "El destino que duplicó sus visitantes y es un boom turístico",
-            "subtitle": "Jamaica, un Caribe exótico para deleitarse con sus aguas cálidas",
             "marquee": "Andrea Ventura",
             "image": "https://www.lanacion.com.ar/resizer/v2/la-playa-es-siempre-un-iman-para-los-visitantes-XGVSYDWYT5GNDJWBB2QHNWPEWY.jpg?auth=e086b3ee5fe51d61e16b69145e2b1b3589918db8ac114c8fedb1db11163772b3&width=1920&height=1280&quality=70&smart=false&focal=1717,773",
             "url":"https://www.lanacion.com.ar/salud/el-destino-que-duplico-sus-visitantes-y-es-un-boom-turistico-nid12052023/",
@@ -34,7 +33,6 @@
             "id":"004",
             "lead": "Misteriosa y monumental.",
             "title": "La antigua fortaleza de mil años que bate récords de visitantes",
-            "subtitle": "Está en una roca en el canal de la Mancha, cerca de Normandía y es uno de los sitios más visitados de Francia",
             "marquee": "Pierre Dumas",
             "image": "https://www.lanacion.com.ar/resizer/v2/para-acceder-a-la-antigua-fortaleza-mont-saint-27EHJUFV6VE2ROLPUTSKM3VNMA.jpeg?auth=666eeb0c0e670851abeb89155a4f44becb339d8c6b4f1046163a074c777895c5&width=1920&height=1280&quality=70&smart=true",
             "url":"https://www.lanacion.com.ar/salud/descanso/misteriosa-y-monumental-la-antigua-fortaleza-francesa-de-mil-anos-que-bate-records-de-visitantes-nid29092023/",
@@ -44,7 +42,6 @@
             "id":"005",
             "lead": "La otra Patagonia.",
             "title": "Dónde queda la cordillera del Viento, el destino que promete un descanso diferente",
-            "subtitle": "A 500 kilómetros de la capital neuquina, muy cerca del volcán Domuyo, el pico más alto de la región",
             "marquee": "Carola Cinto",
             "image": "https://www.lanacion.com.ar/resizer/v2/los-bolillos-curiosas-formaciones-con-forma-de-BJ2M2NJ2DRFHRERCUZYP25JKWE.jpeg?auth=cd9210db490fd9cc111843c2f1c129baad29f4e7ad2994459d34730ee88e387a&width=1920&height=1280&quality=70&smart=true",
             "url":"https://www.lanacion.com.ar/salud/cordillera-del-viento-un-secreto-bien-guardado-en-la-patagonia-nid22092023/",
@@ -54,11 +51,44 @@
             "id":"006",
             "lead": "Litoral carioca.",
             "title": "Un circuito por cuatro pueblos soñados con las playas más glamorosas de Brasil",
-            "subtitle": "A pocos kilómetros de Río de Janeiro, Paraty, Búzios, Angra dos Reis y Arraial do Cabo ofrecen un escape a la vida urbana con arenas más tranquilas, aguas cálidas y morros para caminar sin rumbo",
             "marquee": "Silvina Pini",
             "image": "https://www.lanacion.com.ar/resizer/v2/las-mejores-playas-para-recorrer-en-barco-o-en-Z2BNMVHGXRBDNHZKIPE7PBOWCI.JPG?auth=753425c3246dce36ffd866a51ab42f02c1178823439f54ba1928631fdb57a82d&width=1920&height=1280&quality=70&smart=true",
             "url":"https://www.lanacion.com.ar/salud/litoral-carioca-las-mejores-playas-y-todo-lo-que-hay-que-saber-para-visitar-esta-zona-nid15092023/",
             "autor_image": "/autorImage/mercedes.jpg"
+        },
+        {
+            "id":"007",
+            "lead": "Costa Azul.",
+            "title": "Seis paradas imperdibles en un circuito que marida glamour y playas",
+            "marquee": "María Fernanda Lago",
+            "image": "https://resizer.glanacion.com/resizer/v2/promenade-des-anglais-la-costanera-glamorosa-de-ZVF2AOGNK5AFBLDAHXBO6XPSQU.jpeg?auth=10c1f450bdcfbcc2da682182eecdec39c1c98dfe28103ffc26558d9122762eec&width=1920&height=1280&quality=70&smart=true",
+            "url":"https://www.lanacion.com.ar/salud/6-destinos-imperdibles-en-un-circuito-que-marida-glamour-y-playas-nid27102023/"
+        },
+        {
+            "id":"008",
+            "lead": "Escapada.",
+            "title": "Una inusual bandada de flamencos le pone color y atrae visitantes a un pueblo del noroeste bonaerense",
+            "marquee": "Alejandro Rapetti",
+             "image": "https://www.lanacion.com.ar/resizer/v2/escapada-a-la-laguna-de-gomez-en-junin-los-UR7EMVSSJRC35FQG2WKRKXRWLQ.jpg?auth=b91931004d63a1d0553a1e48a4f2f6f1ceed5dc5cee01c2d88c68f802c332f36&width=1920&height=1280&quality=70&smart=true",
+            "url":"https://www.lanacion.com.ar/salud/descanso/escapadas-una-inusual-bandada-de-flamencos-le-pone-color-y-atrae-visitantes-a-un-pueblo-del-noroeste-nid05102023/",
+            "autor_image": "https://www.lanacion.com.ar/resizer/v2/https%3A%2F%2Fs3.amazonaws.com%2Farc-authors%2Flanacionar%2F3a9f2709-6d42-4ede-87fb-219a2abedd08.png?auth=5b0edba6864fb29af2e4d83c59756b2620914df26deec0ba2559624ea8f83ed3&width=80&quality=70&smart=false"
+        },
+        {
+            "id":"009",
+            "lead": "Escapadas.",
+            "title": "Circuito por los atractivos campos de colza muy cerca de Buenos Aires que solo se ven en esta época",
+            "marquee": "Silvina Pini",
+            "image": "https://www.lanacion.com.ar/resizer/v2/escapadas-chenaut-esta-a-diez-kilometros-de-BXHXPF75TFA4NOBGLEVENPHCCI.JPG?auth=1da945c29565da2d7ef738a4ccf167e83431ed53fc0f62bc3bdcfef8a039c3a1&width=1920&height=1280&quality=70&smart=true",
+            "url":"https://www.lanacion.com.ar/salud/escapada-circuito-por-los-atractivos-campos-de-colza-muy-cerca-de-buenos-aires-que-solo-se-ven-en-nid22092023/"
+        },
+        {
+            "id":"010",
+            "lead": "Con propiedades curativas.",
+            "title": "Los usos insospechados del mate, la uva y el aceite de oliva",
+            "marquee": "Por Carola Cinto",
+            "image": "https://www.lanacion.com.ar/resizer/v2/aceite-y-extracto-de-oliva-y-vid-para-elaborar-3M5MKEOTG5CU5OURJWP5LPXWM4.JPG?auth=7bd8b0f4bee1f23a557e96231401f59e6822c19b421eea25f5db8207107bfc5b&width=880&height=586&quality=70&smart=true",
+            "url":"https://www.lanacion.com.ar/salud/descanso/los-usos-insospechados-de-la-yerba-mate-la-vid-y-el-aceite-de-oliva-nid11092023/",
+            "autor_image": "https://www.lanacion.com.ar/resizer/v2/https%3A%2F%2Fs3.amazonaws.com%2Farc-authors%2Flanacionar%2F3a9f2709-6d42-4ede-87fb-219a2abedd08.png?auth=5b0edba6864fb29af2e4d83c59756b2620914df26deec0ba2559624ea8f83ed3&width=80&quality=70&smart=false"
         }
     ]
 }

@@ -8,8 +8,8 @@ export const CardsGridSix = ({ articles }) => {
             </h2>
 
             <article className="gridSix w-[920px] grid md:grid-cols-3 gap-10">
-                {articles().map((art) => {
-                    return <Card key={art.id} {...art} type={1} />;
+                {articles(6).map((art) => {
+                    return <Card key={art.id} {...art} />;
                 })}
             </article>
         </section>

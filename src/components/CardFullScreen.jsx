@@ -6,13 +6,14 @@ import iconLn from "../assets/icons/icon-ln-badge.png"
 
 export const CardFullScreen = () => {
 
-    const { getFirst } = useContext(ApiContext);
+    const { getArticles } = useContext(ApiContext);
 
-    console.log(getFirst());
-    if(!getFirst()) {
+    const article = getArticles(1);
+
+    if(!article) {
         return null;
     }
-    const { title, image, marquee } = getFirst();
+    const { title, image, marquee } = { ...article[0]};
 
     return (
         <section
@@ -23,7 +24,7 @@ export const CardFullScreen = () => {
         >
             <div className="w-full mt-[528px] bg-gradient-to-t from-black to-transparent">
                 <article className="h-[240px] w-full flex flex-col justify-center items-start mx-auto max-w-[1280px]">
-                    <span className="flex items-center justify-start pl-2 pr-4 py-2 mb-2 rounded-2xl gap-1 bg-gray-100 text-black border uppercase leading-4 text-[12px] font-bold">
+                    <span className="flex items-center justify-start chipSuscriptor mb-2">
                         <img src={iconLn} alt="icon la nación suscripciones" className="w-[20px] rounded" />
                         Exclusivo Suscriptor
                     </span>

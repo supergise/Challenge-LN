@@ -10,11 +10,11 @@ import logo from "../assets/img/logo.svg";
 export const NavBar = () => {
     return (
         <div>
-            <div className="w-full h-[73px] flex justify-center sticky top-0 border-b border-gray-300 bg-white">
-                <div className="w-full flex justify-center items-center">
-                    <div className="w-[420px] h-[40px] items-center hidden xl:flex space-x-4">
+            <div className="w-full h-[73px] aligment sticky top-0 border-b border-gray-300 bg-white">
+                <div className="w-full aligment">
+                    <div className="w-[420px] h-[40px] items-center hidden xl:flex space-x-6">
                         <button
-                            className="width-auto h-[40px] px-4 flex items-center bg-gray-100 hover:opacity-80 rounded uppercase font-bold text-xs"
+                            className="width-auto h-[40px] aligment button bg-gray-100 hover:opacity-80"
                             title="Secciones"
                             type="button"
                         >
@@ -26,7 +26,7 @@ export const NavBar = () => {
                             Secciones
                         </button>
 
-                        <button className="w-auto h-[40px] px-4 items-center flex bg-gray-100 hover:opacity-80 rounded uppercase font-bold text-xs">
+                        <button className="w-auto h-[40px] aligment button bg-gray-100 hover:opacity-80">
                             <img
                                 src={iconSearch}
                                 alt="Buscar"
@@ -36,16 +36,16 @@ export const NavBar = () => {
                         </button>
                     </div>
 
-                    <div className="w-[420px] h-[40px] flex justify-center items-center">
+                    <div className="w-[420px] h-[40px] aligment">
                         <img src={logo} alt="Logo de La Nación" />
                     </div>
 
                     <div className="w-[420px] flex justify-end space-x-6">
-                        <button className="w-[105px] h-[40px] px-4 flex items-center justify-center border-gray-100  bg-Yellow-LN hover:opacity-80 rounded uppercase font-bold text-xs">
+                        <button className="w-[105px] h-[40px] aligment button border-gray-100  bg-Yellow-LN hover:opacity-80">
                             Suscribite
                         </button>
 
-                        <button className="w-[132px] h-[40px] px-4 hidden lg:flex items-center justify-center border border-blue-700 text-blue-700 rounded uppercase hover:opacity-80 font-bold text-xs">
+                        <button className="w-[132px] h-[40px] hidden lg:flex aligment border border-Blue-LN text-Blue-LN hover:opacity-80 button">
                             Ingresar
                         </button>
                     </div>
