@@ -1,8 +1,9 @@
-
 export const AnexoUno = () => {
     return (
-      <section className="w-full h-[180px] bg-gray-200">
-          
-      </section>
-    )
-  }
+        // To Do según figma
+
+        <section className="w-full h-[180px] flex bg-gray-200 justify-center">
+            anexo 1
+        </section>
+    );
+};
