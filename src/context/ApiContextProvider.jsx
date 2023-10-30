@@ -4,7 +4,7 @@ import { fetchData } from "../helpers/getArticles";
 
 export const ApiContextProvider = ({ children }) => {
     const [articles, setArticles] = useState([]);
-    
+
     const getData = async () => {
         const data = await fetchData();
         setArticles(data);
@@ -18,7 +18,7 @@ export const ApiContextProvider = ({ children }) => {
         if (quantity > articles.length) {
             result = articles.splice(0);
         } else {
-            result =  articles.splice(0, quantity);
+            result = articles.splice(0, quantity);
         }
         if (articles.length == 0) {
             getData();

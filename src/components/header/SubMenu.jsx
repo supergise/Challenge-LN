@@ -1,5 +1,5 @@
-import weater from "../assets/icons/icon-weater.svg";
-import clubLN from "../assets/icons/icon-club.svg";
+import weater from "../../assets/icons/icon-weater.svg";
+import clubLN from "../../assets/icons/icon-club.svg";
 
 export const SubMenu = () => {
     return (

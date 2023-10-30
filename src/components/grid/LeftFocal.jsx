@@ -1,8 +1,8 @@
-import { Card } from "./Card";
+import { Card } from "../card/Card";
 
 export const LeftFocal = ({ articles }) => {
     return (
-        <div className="mb-16">
+        <>
             <h2 className="max-w-[920px] h-[41px] mb-4 py-1 px-4 lg:px-0 titleMB border-b">
                 Focal Izquierdo
             </h2>
@@ -22,6 +22,6 @@ export const LeftFocal = ({ articles }) => {
                     ))}
                 </article>
             </section>
-        </div>
+        </>
     );
 };

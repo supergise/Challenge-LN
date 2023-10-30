@@ -1,4 +1,4 @@
-export const Publicidad = () => {
+export const Advertisement = () => {
     return (
         <section className="w-full h-[148px] hidden  md:aligment">
             <article

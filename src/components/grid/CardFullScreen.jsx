@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import { ApiContext } from "../context/ApiContex";
+import { ApiContext } from "../../context/ApiContex";
 
-import iconLn from "../assets/icons/icon-ln-badge.png";
+import iconLn from "../../assets/icons/icon-ln-badge.png";
 
 export const CardFullScreen = () => {
     const { getArticles } = useContext(ApiContext);

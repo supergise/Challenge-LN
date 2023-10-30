@@ -1,6 +1,6 @@
 import { render } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import { LeftFocal } from "../../src/components/LeftFocal";
+import { LeftFocal } from "../../../src/components/grid/LeftFocal";
 
 test("should handle click events on articles", () => {
     const articles = [
@@ -10,7 +10,7 @@ test("should handle click events on articles", () => {
             title: "Este es el lugar que ocuparía un Title1 con varias palabras",
             marquee: "Nombre y apellido1",
             image: "https://example.com/image.jpg",
-            url: "https://example.com/image0.jpg",
+            url: "https://example.com/nota0.html",
         },
         {
             id: "002",
@@ -18,7 +18,7 @@ test("should handle click events on articles", () => {
             title: "Este es el lugar que ocuparía un Title2 con varias palabras",
             marquee: "Nombre y apellido2",
             image: "https://example.com/image.jpg",
-            url: "https://example.com/image1.jpg",
+            url: "https://example.com/nota1.html",
         },
         {
             id: "003",
@@ -26,7 +26,7 @@ test("should handle click events on articles", () => {
             title: "Este es el lugar que ocuparía un Title3 con varias palabras",
             marquee: "Nombre y apellido3",
             image: "https://example.com/image.jpg",
-            url: "https://example.com/image2.jpg",
+            url: "https://example.com/nota2.html",
         },
     ];
 
@@ -45,7 +45,7 @@ test("should handle click events on articles", () => {
         console.log(article);
         expect(article).toHaveAttribute(
             "href",
-            "https://example.com/image" + index + ".jpg"
+            "https://example.com/nota" + index + ".html"
         );
     });
 });
