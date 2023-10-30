@@ -4,21 +4,26 @@ import { fetchData } from "../helpers/getArticles";
 
 export const ApiContextProvider = ({ children }) => {
     const [articles, setArticles] = useState([]);
-
+    
+    const getData = async () => {
+        const data = await fetchData();
+        setArticles(data);
+    };
     useEffect(() => {
-        const getArticles = async () => {
-            const data = await fetchData();
-            setArticles(data);
-        };
-        getArticles();
+        getData();
     }, []);
 
     const getArticles = (quantity) => {
+        let result;
         if (quantity > articles.length) {
-            return articles.splice(0);
+            result = articles.splice(0);
         } else {
-            return articles.splice(0, quantity).reverse();
+            result =  articles.splice(0, quantity);
         }
+        if (articles.length == 0) {
+            getData();
+        }
+        return result;
     };
 
     return (

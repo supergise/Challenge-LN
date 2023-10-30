@@ -46,7 +46,7 @@ export const Card = ({
                     title={title}
                 >
                     <img src={image} alt={title} />
-                    <div className="py-[8px]">
+                    <div className="py-[8px] px-[16px] md:px-0">
                         <h1 className="pb-[8px] tertiaryTitle gap-1">
                             <span className="text-Blue-LN pr-1">{lead}</span>
                             {title}
@@ -85,30 +85,34 @@ export const Card = ({
         );
     } else if (type == 3) {
         return (
-            <article className="cardThree col-span-1 row-span-1 h-[330px] pb-[16px] hover:opacity-80">
+            <article className="cardThree col-span-1 row-span-1 h-[330px] pb-[16px] px-4 hover:opacity-80">
                 <a
                     href={url}
                     target="_blank"
                     rel="noopener noreferrer"
                     title={title}
                 >
-                    <div className="w-[280px] h-[268] flex-box border px-4 py-4">
-                        <span>
-                            <h1 className="cuaternaryTitle mb-2 text-center">
-                                <span className="text-Blue-LN  pr-1">
-                                    {lead}
-                                </span>
-                                {title}
-                            </h1>
-                        </span>
-                        <div className="flex justify-center mb-2">
-                            <img
-                                className="w-[56px] h-[56px] rounded-full"
-                                src={autor_image}
-                                alt={marquee}
-                            />
+                    <div className="w-full h-[240px] md:h-[268] flex items-center border py-4">
+                        <div>
+                            <span>
+                                <h1 className="cuaternaryTitle text-center py-2 px-[16px] md:px-0">
+                                    <span className="text-Blue-LN  pr-1">
+                                        {lead}
+                                    </span>
+                                    {title}
+                                </h1>
+                            </span>
+                            <div className="flex justify-center mb-2">
+                                <img
+                                    className="w-[56px] h-[56px] rounded-full"
+                                    src={autor_image}
+                                    alt={marquee}
+                                />
+                            </div>
+                            <h4 className="marqueeDark text-center">
+                                {marquee}
+                            </h4>
                         </div>
-                        <h4 className="marqueeDark text-center">{marquee}</h4>
                     </div>
                 </a>
             </article>
@@ -122,14 +126,19 @@ export const Card = ({
                     rel="noopener noreferrer"
                     title={title}
                 >
-                    <h1 className="secondaryTitle mb-2">
-                        <span className="text-Blue-LN pr-2">{lead}</span>
-                        {title}
-                    </h1>
-                    <p className="mb-2 subTitle">{subtitle}</p>
-                    <h4 className="marqueeDark mb-4">{marquee}</h4>
-
-                    <img src={image} alt={title} />
+                    <div className="flex flex-col-reverse md:flex-col">
+                        <div>
+                            <h1 className="secondaryTitle py-2 px-[16px] lg:px-0">
+                                <span className="text-Blue-LN pr-2">
+                                    {lead}
+                                </span>
+                                {title}
+                            </h1>
+                            <p className="subTitle py-1 px-[16px] lg:px-0">{subtitle}</p>
+                            <h4 className="marqueeDark py-2 px-[16px] lg:px-0">{marquee}</h4>
+                        </div>
+                        <img src={image} alt={title} />
+                    </div>
                 </a>
             </article>
         );
@@ -143,7 +152,7 @@ export const Card = ({
                     title={title}
                 >
                     <img src={image} alt={title} />
-                    <div className="py-[8px]">
+                    <div className="py-2 px-[16px] md:px-0">
                         <h1 className="pb-[8px] tertiaryTitle gap-1">
                             <span className="text-Blue-LN pr-1">{lead}</span>
                             {title}

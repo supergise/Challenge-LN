@@ -50,7 +50,7 @@
         {
             "id":"006",
             "lead": "Litoral carioca.",
-            "title": "Un circuito por cuatro pueblos soñados con las playas más glamorosas de Brasil",
+            "title": "Un circuito por cuatro pueblos soñados con las playas más glamorosas de Brasil. Arena blanca",
             "marquee": "Silvina Pini",
             "image": "https://www.lanacion.com.ar/resizer/v2/las-mejores-playas-para-recorrer-en-barco-o-en-Z2BNMVHGXRBDNHZKIPE7PBOWCI.JPG?auth=753425c3246dce36ffd866a51ab42f02c1178823439f54ba1928631fdb57a82d&width=1920&height=1280&quality=70&smart=true",
             "url":"https://www.lanacion.com.ar/salud/litoral-carioca-las-mejores-playas-y-todo-lo-que-hay-que-saber-para-visitar-esta-zona-nid15092023/",
@@ -59,7 +59,7 @@
         {
             "id":"007",
             "lead": "Costa Azul.",
-            "title": "Seis paradas imperdibles en un circuito que marida glamour y playas",
+            "title": "Seis paradas imperdibles en un circuito que marida glamour y playas. Compras y lugares top",
             "marquee": "María Fernanda Lago",
             "image": "https://resizer.glanacion.com/resizer/v2/promenade-des-anglais-la-costanera-glamorosa-de-ZVF2AOGNK5AFBLDAHXBO6XPSQU.jpeg?auth=10c1f450bdcfbcc2da682182eecdec39c1c98dfe28103ffc26558d9122762eec&width=1920&height=1280&quality=70&smart=true",
             "url":"https://www.lanacion.com.ar/salud/6-destinos-imperdibles-en-un-circuito-que-marida-glamour-y-playas-nid27102023/"
@@ -84,10 +84,36 @@
         {
             "id":"010",
             "lead": "Con propiedades curativas.",
-            "title": "Los usos insospechados del mate, la uva y el aceite de oliva",
+            "title": "Los usos insospechados del mate, la uva y el aceite de oliva. Compras, lugares y tendencias",
             "marquee": "Por Carola Cinto",
             "image": "https://www.lanacion.com.ar/resizer/v2/aceite-y-extracto-de-oliva-y-vid-para-elaborar-3M5MKEOTG5CU5OURJWP5LPXWM4.JPG?auth=7bd8b0f4bee1f23a557e96231401f59e6822c19b421eea25f5db8207107bfc5b&width=880&height=586&quality=70&smart=true",
             "url":"https://www.lanacion.com.ar/salud/descanso/los-usos-insospechados-de-la-yerba-mate-la-vid-y-el-aceite-de-oliva-nid11092023/",
+            "autor_image": "https://www.lanacion.com.ar/resizer/v2/https%3A%2F%2Fs3.amazonaws.com%2Farc-authors%2Flanacionar%2F3a9f2709-6d42-4ede-87fb-219a2abedd08.png?auth=5b0edba6864fb29af2e4d83c59756b2620914df26deec0ba2559624ea8f83ed3&width=80&quality=70&smart=false"
+        },
+        {
+            "id":"011",
+            "lead": "Arrancó la temporada.",
+            "title": "La playa para ver ballenas y una imperdible experiencia para vencer el miedo",
+            "marquee": "Germán Wille",
+            "image": "https://www.lanacion.com.ar/resizer/v2/una-ballena-franca-austral-salta-al-anochecer-en-KTNTLPHV3BC4XIZXKFHHHX2YSY.jpg?auth=cf3cd541c0cbd20bb2f168fa1e12fc7fd5a46ce5a32533fa5fd966d211736bd6&width=1920&height=1280&quality=70&smart=true",
+            "url": "https://www.lanacion.com.ar/salud/patagonia-la-playa-para-ver-ballenas-de-manera-gratuita-y-una-imperdible-excursion-para-vencer-el-nid14072023/",
+            "autor_image": "https://www.lanacion.com.ar/resizer/sot5lhQ6cIdox2QRxCFkfRcCk6k=/280x0/filters:format(webp):quality(70)/s3.amazonaws.com/arc-authors/lanacionar/021e3483-7d81-451b-a0aa-76375c8fa4bb.jpg"
+        },
+        {
+            "id":"012",
+            "lead": "Desde la Costa Azul hasta Croacia.",
+            "title": "Las playas secretas del verano europeo donde se esconden las celebrities",
+            "marquee": "Flavia Tomaello",
+            "image": "https://www.lanacion.com.ar/resizer/v2/una-de-las-playas-mas-lindas-del-mar-jonico-es-6LCCAEUF4NGIJDNLOFB4SQBLFY.jpeg?auth=8e1e8b34876fdd263db440e2e4333528c53f9bc8fdef0d786a14c342c8e409a9&width=880&height=586&quality=70&smart=true",
+            "url": "https://www.lanacion.com.ar/salud/descanso/las-playas-secretas-del-verano-europeo-donde-se-esconden-las-celebrities-nid21072023/",
+            "autor_image": "https://www.lanacion.com.ar/resizer/v2/https%3A%2F%2Fs3.amazonaws.com%2Farc-authors%2Flanacionar%2F3a9f2709-6d42-4ede-87fb-219a2abedd08.png?auth=5b0edba6864fb29af2e4d83c59756b2620914df26deec0ba2559624ea8f83ed3&width=80&quality=70&smart=false"
+        },
+        {
+            "id":"013",
+            "lead": "La Puglia.",
+            "title": "Playas de ensueño en una de las regiones de moda que vale la pena conocer",
+            "marquee": "Julieta Bilik",
+            "url": "https://www.lanacion.com.ar/salud/italia-montanas-playas-de-ensueno-los-famosos-trulli-y-el-folklore-tipico-de-una-de-las-regiones-de-nid08072023/",
             "autor_image": "https://www.lanacion.com.ar/resizer/v2/https%3A%2F%2Fs3.amazonaws.com%2Farc-authors%2Flanacionar%2F3a9f2709-6d42-4ede-87fb-219a2abedd08.png?auth=5b0edba6864fb29af2e4d83c59756b2620914df26deec0ba2559624ea8f83ed3&width=80&quality=70&smart=false"
         }
     ]
