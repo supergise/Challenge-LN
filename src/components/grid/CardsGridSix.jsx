@@ -1,4 +1,4 @@
-import { Card } from "./Card";
+import { Card } from "../card/Card";
 
 export const CardsGridSix = ({ articles }) => {
     return (

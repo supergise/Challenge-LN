@@ -7,6 +7,7 @@ export const Card = ({
     url,
     autor_image,
     type,
+    
 }) => {
     if (!type) {
         if (!!image && title.length < 65 && !!lead && !!marquee && !subtitle) {

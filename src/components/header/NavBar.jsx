@@ -1,13 +1,8 @@
-import { Header } from "./Header";
-import { Main } from "./Main";
-import { SubMenu } from "./SubMenu";
-import { MainLead } from "./MainLead";
+import iconHamburger from "../../assets/icons/icon-hamburger.svg";
+import iconSearch from "../../assets/icons/icon-search.svg";
+import logo from "../../assets/img/logo.svg";
 
-import iconHamburger from "../assets/icons/icon-hamburger.svg";
-import iconSearch from "../assets/icons/icon-search.svg";
-import logo from "../assets/img/logo.svg";
-
-export const NavBar = () => {
+export const NavBar = ({ children }) => {
     return (
         <div>
             <div className="w-full h-[49px] md:h-[72px] px-4 aligment sticky top-0 border-b border-gray-300 bg-white z-10">
@@ -63,10 +58,7 @@ export const NavBar = () => {
                 </div>
             </div>
 
-            <SubMenu />
-            <MainLead />
-            <Header />
-            <Main />
+           { children }
         </div>
     );
 };

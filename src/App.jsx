@@ -1,6 +1,7 @@
-import { Header } from "./components/Header";
-import { Main } from "./components/Main";
-import { NavBar } from "./components/NavBar";
+import { Main } from "./components/main/Main";
+import { MainLead } from "./components/header/MainLead";
+import { NavBar } from "./components/header/NavBar";
+import { SubMenu } from "./components/header/SubMenu";
 import { ApiContextProvider } from "./context/ApiContextProvider";
 
 import "./App.css";
@@ -10,7 +11,8 @@ function App() {
         <ApiContextProvider>
             <div className="box-border w-full">
                 <NavBar>
-                    <Header />
+                    <SubMenu />
+                    <MainLead />
                     <Main />
                 </NavBar>
             </div>

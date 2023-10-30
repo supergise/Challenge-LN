@@ -1,13 +1,13 @@
-import { AnexoUno } from "./AnexoUno";
-import { CardFullScreen } from "./CardFullScreen";
+import { AnexoUno } from "../ads/AnexoUno";
+import { CardFullScreen } from "../grid/CardFullScreen";
 import { DeskHome } from "./DeskHome";
-import { Publicidad } from "./Publicidad";
+import { Advertisement } from "../ads/Advertisement";
 
 export const Main = () => {
     return (
         <div>
             <AnexoUno />
-            <Publicidad />
+            <Advertisement />
             <CardFullScreen />
             <DeskHome />
         </div>
