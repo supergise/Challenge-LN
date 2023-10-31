@@ -2,7 +2,6 @@ import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import { Card } from "../../../src/components/card/Card";
 
-
 describe("test for <Card/>", () => {
     test("Render a card type one", () => {
         const mockArticle = {

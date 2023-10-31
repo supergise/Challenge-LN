@@ -19,7 +19,7 @@ export const DeskHome = () => {
 
                     <CardsGridSix articles={getArticles} />
 
-                    <CardsGridThree articles={getArticles}  />
+                    <CardsGridThree articles={getArticles} />
                 </section>
 
                 <aside className="col-span-1 row-span-1 w-[300px] h-[7641] bg-gray-100 hidden md:flex"></aside>

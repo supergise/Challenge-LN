@@ -7,35 +7,29 @@ export const Card = ({
     url,
     autor_image,
     type,
-    
 }) => {
     if (!type) {
+
         if (!!image && title.length < 65 && !!lead && !!marquee && !subtitle) {
             type = 1;
-        } else if (
-            !image &&
-            !!lead &&
-            !!title &&
-            !!subtitle &&
-            !!autor_image &&
-            !!marquee
+
+        } else if (!image && !!lead && !!title && !!subtitle && !!autor_image && !!marquee
         ) {
             type = 2;
+
         } else if (!image && !!title && !!lead && !!marquee && !!autor_image) {
             type = 3;
+
         } else if (!!image && !!title && !!lead && !!marquee && !!subtitle) {
             type = 4;
-        } else if (
-            !!image &&
-            title.length > 65 &&
-            title.length <= 110 &&
-            !!lead &&
-            !!marquee &&
-            !subtitle
+
+        } else if (!!image &&  title.length > 65 &&  title.length <= 110 &&  !!lead &&  !!marquee && !subtitle
         ) {
             type = 5;
         }
     }
+
+// Card Regular
 
     if (type == 1) {
         return (
@@ -58,6 +52,9 @@ export const Card = ({
                 </a>
             </article>
         );
+    
+// Card Inline 
+
     } else if (type == 2) {
         return (
             <article className="cardTwo col-span-1 row-span-1 pb-4 hover:opacity-80">
@@ -84,6 +81,9 @@ export const Card = ({
                 </a>
             </article>
         );
+
+// Card Author
+
     } else if (type == 3) {
         return (
             <article className="cardThree col-span-1 row-span-1 h-[330px] pb-4 px-4 hover:opacity-80">
@@ -118,6 +118,9 @@ export const Card = ({
                 </a>
             </article>
         );
+
+// Card Focal Izquierdo frame
+
     } else if (type == 4) {
         return (
             <article className="cardFour hover:opacity-80">
@@ -135,14 +138,21 @@ export const Card = ({
                                 </span>
                                 {title}
                             </h1>
-                            <p className="subTitle py-1 px-4 lg:px-0">{subtitle}</p>
-                            <h4 className="marqueeDark py-2 px-4 lg:px-0">{marquee}</h4>
+                            <p className="subTitle py-1 px-4 lg:px-0">
+                                {subtitle}
+                            </p>
+                            <h4 className="marqueeDark py-2 px-4 lg:px-0">
+                                {marquee}
+                            </h4>
                         </div>
                         <img src={image} alt={title} />
                     </div>
                 </a>
             </article>
         );
+
+// Card Regular 110 caracteres
+
     } else if (type == 5) {
         return (
             <article className="cardFive col-span-1 row-span-1 hover:opacity-80">

@@ -28,7 +28,9 @@ export const CardFullScreen = () => {
                         Exclusivo Suscriptor
                     </span>
 
-                    <h1 className="font-primary titleM md:text-[40px] lg:text-[48px] md:leading-[52px] text-start text-White-LN">{title}</h1>
+                    <h1 className="font-primary titleM md:text-[40px] lg:text-[48px] md:leading-[52px] text-start text-White-LN">
+                        {title}
+                    </h1>
 
                     <h4 className="marqueeLight text-center">{marquee}</h4>
                 </article>
